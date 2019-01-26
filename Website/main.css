@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+* { box-sizing: border-box; }
+.hidden {
+  color: white;
+}
+body {
+  margin: 20px;
+  line-height: 1.4
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-family: 'Sanchez', serif;
+}
+
+img {
+  border: 4px solid rgb(0, 120, 200);
+}
+
+article, aside {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px
+}
+
+article {
+  width: 550px;
+}
+
+aside {
+  width: 380px;
+  color: rgb(0, 120, 200);
+  margin-top: 40px;
+  border-left: 4px solid rgb(0, 120, 200);
+}
+
+aside > h2 {
+  text-align: right;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(225, 233, 239);
+}
